@@ -1,0 +1,13 @@
+* {  box-sizing: border-box; }
+
+body {  width: 100%;  height: auto;  margin: 0;  color: #f5f6f7;  font-family: Tahoma;  font-size: 16px;
+  background-image: url("/photos/bg1.jpg");  background-repeat: no-repeat;  background-size: cover;  background-position: center; height: 100%;  /* opacity: 0.9; */}
+
+.header { text-transform: uppercase;  padding: 32px;  background: #0a0a23;  border-bottom: 4px solid #fdb347;  text-align: center; color: #fff;}
+
+.gallery img {  width: 100%;  max-width: 350px !important;  height: 300px;  object-fit: cover;  border-radius: 10px !important;}
+
+.gallery { display: flex;  flex-direction: row;  flex-wrap: wrap;  justify-content: center;  align-items: center;  padding: 20px 10px;  max-width: 1400px; 
+     margin: 0 auto;  gap: 16px;}
+
+.gallery::after {content: "";  width: 350px;}
